@@ -1,25 +1,33 @@
-# ACME Company Accounting System
+# 📊 ACME Company Accounting System
 
-## What This Project Is
-This is a fully automated Excel-based accounting system built for ACME Company.
-It allows a user to enter journal transactions once and have all financial reports
-update automatically — General Ledger, Trial Balance, Income Statement, Balance Sheet and Dashboard.
+> A fully automated Excel-based double-entry accounting system for small businesses.
+> Enter transactions once and watch all financial reports update automatically.
 
 ---
 
-## Why This Project Was Built
+## 🧾 What This Project Is
+
+This is a formula-driven accounting system built entirely in Microsoft Excel for ACME Company.
+It covers the full accounting cycle — from journal entry to financial statements — with no
+manual calculations required.
+
+---
+
+## 💡 Why It Was Built
+
 Most small businesses and students cannot afford professional accounting software like QuickBooks or Sage.
-This project was built to solve that problem by creating a transparent, formula-driven accounting system
-entirely in Microsoft Excel that:
-- teaches double-entry bookkeeping in a practical way
-- automates financial reporting from a single data entry point
-- enforces data consistency using dropdown validation
-- shows the full accounting cycle from journal entry to financial statements
-- helps small business owners track cash, expenses, liabilities and profit without any software cost
+This project was built to solve that problem by creating a transparent, automated accounting system in Excel that:
+
+- ✅ Teaches double-entry bookkeeping in a practical way
+- ✅ Automates financial reporting from a single data entry point
+- ✅ Enforces data consistency using dropdown validation
+- ✅ Shows the full accounting cycle from journal entry to financial statements
+- ✅ Helps small business owners track cash, expenses, liabilities and profit at no software cost
 
 ---
 
-## What Problem It Solves
+## 🔧 What Problem It Solves
+
 | Problem | Solution |
 |---|---|
 | Manual posting of journal entries | Transactions sheet auto-posts to all reports |
@@ -32,7 +40,7 @@ entirely in Microsoft Excel that:
 
 ---
 
-## Sheets Included
+## 📂 Sheets Included
 
 | Sheet | Purpose |
 |---|---|
@@ -47,7 +55,8 @@ entirely in Microsoft Excel that:
 
 ---
 
-## Key Features
+## ⚡ Key Features
+
 - Automated formulas using `SUMIF` and `VLOOKUP`
 - Normal Balance column in Chart of Accounts drives correct balance signs
 - Income Statement structured with Revenue and Expenses sections and Net Income
@@ -60,7 +69,8 @@ entirely in Microsoft Excel that:
 
 ---
 
-## Chart of Accounts
+## 📋 Chart of Accounts
+
 | Code | Account | Type | Normal Balance |
 |---|---|---|---|
 | 1001 | Cash | Asset | Debit |
@@ -84,7 +94,8 @@ entirely in Microsoft Excel that:
 
 ---
 
-## How to Use
+## 🚀 How to Use
+
 1. Open `Accounting system.xlsx`
 2. Go to the `Transactions` sheet
 3. Enter journal entries starting from row 4:
@@ -92,43 +103,31 @@ entirely in Microsoft Excel that:
    - Enter Date, Description, Debit or Credit (enter 0 for the other), Due Date
    - Type `Paid` in column H when a transaction is completed
    - Leave Status column (G) empty — it calculates automatically
-4. Every journal entry needs TWO rows — one debit and one credit
-5. Both rows of the same entry must have the SAME date
+4. Every journal entry needs **TWO rows** — one debit and one credit
+5. Both rows of the same entry must have the **SAME date**
 6. Press **F9** to refresh all formulas after entry
 7. Review Trial Balance, Income Statement, Balance Sheet and Dashboard
 
 ---
 
-## Project Files
+## 📁 Project Files
+
 | File | Purpose |
 |---|---|
 | `Accounting system.xlsx` | The Excel workbook |
-| `sample_transactions.md` | Sample transactions to enter as reference |
 | `README.md` | Project summary |
-| `learning_guide.md` | Accounting concepts and how to learn from this project |
-| `interview_questions_answers.md` | Interview Q&A and possible exam questions |
-| `Accounting system formulas explanation.md` | All formulas explained with purpose |
 
 ---
 
-## Expected Results After Entering Sample Transactions
-| Account | Balance |
-|---|---|
-| Cash | 4,550.00 |
-| Accounts Receivable | 1,800.00 |
-| Service Revenue | 3,800.00 |
-| Accounts Payable | 300.00 |
-| Capital | 5,000.00 |
-| Rent Expense | 1,000.00 |
-| Utilities Expense | 250.00 |
-| Salaries Expense | 1,200.00 |
-| Supplies Expense | 300.00 |
-| Net Income | 2,250.00 |
+## ⚠️ Notes
 
----
-
-## Notes
 - Each journal entry must have equal debits and credits
 - Account names must be selected from the dropdown — do not type manually
 - Press F9 if values appear stale or not updating
 - To add new accounts go to Chart of Accounts and add a new row, then extend report rows accordingly
+
+---
+
+## 🛠️ Built With
+
+![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
